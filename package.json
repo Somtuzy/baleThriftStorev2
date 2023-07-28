@@ -1,0 +1,34 @@
+{
+  "name": "thrifti",
+  "version": "1.0.0",
+  "description": "Thrifti is an e-commerce app where users can buy and sell used items also known as thrift. Users need to sign in to be able to create, update, delete and get products under different categories, sizes and prices.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "tsc && nodemon -r dotenv/config ./build/server.js",
+    "build": "npm i",
+    "start": "tsc && node ./build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Somtuzy/thrifti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Somtuzy/thrifti/issues"
+  },
+  "homepage": "https://github.com/Somtuzy/thrifti#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "pino": "^8.14.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.17",
+    "@types/pino": "^7.0.5",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.1.6"
+  }
+}
