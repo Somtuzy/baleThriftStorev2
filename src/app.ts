@@ -1,7 +1,8 @@
 import express from "express";
-import startDb from "./configs/db.config"
+import indexMiddleware from "./middlewares/index.middleware";
 
 const app = express();
-startDb()
+
+indexMiddleware(app)
 
 export default app;
